@@ -8,7 +8,7 @@
 
   <div>坐标: {{x}}, {{y}}</div>
 </template>
-<script setup lang="ts">
+<script setup>
 // 禁用默认的 layout
 definePageMeta({
   layout: false,

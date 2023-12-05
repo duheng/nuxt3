@@ -7,7 +7,7 @@
     </NuxtLayout>
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
 import { useUserStore } from '@/stores/useUserStore'
 const userInfo = useUserStore().userInfo
 console.log(userInfo);
